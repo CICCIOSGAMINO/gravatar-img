@@ -1,0 +1,26 @@
+{
+  "name": "gravatar-img",
+  "version": "1.0.0",
+  "description": "Node.js package build to handle the gravatar picture in a simpler no thinking way ! ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gravatar",
+    "icons",
+    "icon",
+    "picture",
+    "avatar",
+    "pic"
+  ],
+  "author": "Marco Canali - CiccioSgamino <marco.canali@gmail.com> (https://github.com/CICCIOSGAMINO)",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^3.1.5"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha":"^2.3.4"
+  }
+}
