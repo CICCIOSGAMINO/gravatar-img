@@ -10,7 +10,8 @@ Simple Node.js module for build https (Snowden teach us) URL for Gravatar pictur
 Main changes by version (if the first number change, old code you have written is not supported, for
 example between version 1.x.x to version 2.x.x (I apologize for that):
 
-+ 1.0.0 First Version (hunting the bugs)
++ 1.1.0 First Version (hunting the bugs)
++ 1.1.3 minor text changes
 
 ## Development/Test
 
@@ -19,7 +20,7 @@ example between version 1.x.x to version 2.x.x (I apologize for that):
 
 To test the index.js main file, type on the root folder :
 
-    $ npm test 
+    $ npm test
 
 or
 
