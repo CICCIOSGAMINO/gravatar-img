@@ -4,7 +4,7 @@
 var grav = require('./index.js');
 
 // email
-var email = 'anyentertainment@gmail.com';
+var email = 'marco.canali@gmail.com';
 
 // set the size of the gravatar to get link (min 1px, MAX 2048)(optional)
 grav.setGravatarSize(250);
@@ -18,7 +18,7 @@ grav.setGravatarRating('g');
 // set the placeholder image when miss the retrieve by email
 grav.setGravatarDefaultImg('http://placehold.it/250x250');
 
-// retrive the gravatar https link for anyentertainment@gmail.com gravatar size 250px 
+// retrive the gravatar https link for anyentertainment@gmail.com gravatar size 250px
 grav.getGravatarHTTPS(email, function(err,link){
     if(!err){
       // do stuff with the link
