@@ -1,11 +1,8 @@
 {
   "name": "gravatar-img",
-  "version": "1.1.5",
+  "version": "2.0.0",
   "description": "Node.js package build to handle the gravatar picture in a simpler no thinking way ! ",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
+  "main": "index.mjs",
   "repository": {
     "type": "git",
     "url": "git@github.com:CICCIOSGAMINO/gravatar-img.git"
@@ -20,15 +17,8 @@
   ],
   "author": "Marco Canali - CiccioSgamino <marco.canali@gmail.com> (https://github.com/CICCIOSGAMINO)",
   "license": "MIT",
-  "dependencies": {
-    "crypto-js": "^3.1.5"
-  },
   "bugs": {
     "url": "https://github.com/CICCIOSGAMINO/gravatar-img/issues"
   },
-  "homepage": "https://github.com/CICCIOSGAMINO/gravatar-img",
-  "devDependencies": {
-    "chai": "^3.4.1",
-    "mocha":"^2.3.4"
-  }
+  "homepage": "https://github.com/CICCIOSGAMINO/gravatar-img"
 }

@@ -1,19 +1,24 @@
-# gravatar-img
+gravatar-img
+============
+[TOC]
+
+v2.0.0 - xx-01-2024
+
 Simple Gravatar Node.js package, do you want more info? http://en.gravatar.com/
 
-[![Build Status](https://travis-ci.org/CICCIOSGAMINO/gravatar-img.svg?branch=master)](https://travis-ci.org/CICCIOSGAMINO/gravatar-img)
-
-## Intro
+# Intro
 Simple Node.js module for build https (Snowden teach us) URL for Gravatar pictures. Your Gravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog. Avatars help identify your posts on blogs and web forums, so why not on any site? You need more info ? Check the official Gravatar [page][1].
 
-## Version Details
+# Version Details
 Main changes by version (if the first number change, old code you have written is not supported, for
 example between version 1.x.x to version 2.x.x (I apologize for that):
 
 + 1.1.0 First Version (hunting the bugs)
 + 1.1.3 minor text changes
 
-## Development/Test
++ 2.0.0 New version based on sha256 (no-dependencies / breaking changes)
+
+# Development/Test
 
 + Node.js > 1.14
 + Mocha/Chai
@@ -26,17 +31,14 @@ or
 
     $ mocha
 
-## Install
+# Install
 Like all the Node.js module can't be more easy :
 
-```javascript
+```bash
   npm install gravatar-img
 
-  // install and save in package.json
+  # install and save in package.json
   npm install gravatar-img --save
-
-  // global installation
-  npm install -g gravatar-img
 ```
 
 ## Usage
